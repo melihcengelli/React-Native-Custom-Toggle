@@ -6,6 +6,7 @@
 
 #### **Default Toggle**
 ![defaultl toggle](./img/size100.png)
+![green toggle](./img/oncolorgreen.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle/>
@@ -35,11 +36,13 @@ export default function App () {
 ##### a. Size
 Resizeble toggle
 
+![toggle](./img/size100.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleSize={100} />
 </TouchableWithoutFeedback>
 ```
+![toggle](./img/size200.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleSize={200} />
@@ -48,55 +51,65 @@ Resizeble toggle
 
 ##### b. Background Color
 Toggle states -> true
+![toggle](./img/oncolorgreen.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleOnColor={'green'} />
 </TouchableWithoutFeedback>
 ```
 Toggle states -> false
+![toggle](./img/offcolorred.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleOffColor={'red'} />
 </TouchableWithoutFeedback>
 ```
 ##### c. Toggle Sign
-
+![toggle](./img/togglesigntrue.png)
+![toggle](./img/togglesigntrue2.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleSign={true} />
 <TouchableWithoutFeedback>
 ```
 ##### d. Toggle Circle Margin
+![toggle](./img/circlemarginleft.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleCircleMarginLeft={3} />
 <TouchableWithoutFeedback>
 ```
+![toggle](./img/size100.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleCircleMarginLeft={10} />
 <TouchableWithoutFeedback>
 ```
+![toggle](./img/oncolorgreen.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleCircleMarginRight={3} />
 <TouchableWithoutFeedback>
 ```
+![toggle](./img/circlemarginright.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleCircleMarginRight={10} />
 <TouchableWithoutFeedback>
 ```
 ##### e. Toggle Shape
+![toggle](./img/oncolorgreen.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleShape={'circle'} />
 <TouchableWithoutFeedback>
 ```
+![toggle](./img/toggleshape.png)
 ```
 <Toggle toggleShape={'rectangle'} />
 ```
 ##### f. Circle Color
+![toggle](./img/circlecolor.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleCircleColor={'red'} />
