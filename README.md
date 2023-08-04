@@ -50,14 +50,14 @@ Resizeble toggle
 ```
 
 ##### b. Background Color
-Toggle states -> true
+> Toggle states -> true
 ![toggle](./img/oncolorgreen.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleOnColor={'green'} />
 </TouchableWithoutFeedback>
 ```
-Toggle states -> false
+> Toggle states -> false
 ![toggle](./img/offcolorred.png)
 ```
 <TouchableWithoutFeedback>
@@ -106,7 +106,9 @@ Toggle states -> false
 ```
 ![toggle](./img/toggleshape.png)
 ```
-<Toggle toggleShape={'rectangle'} />
+<TouchableWithoutFeedback>
+    <Toggle toggleShape={'rectangle'} />
+</TouchableWithoutFeedback>
 ```
 ##### f. Circle Color
 ![toggle](./img/circlecolor.png)
