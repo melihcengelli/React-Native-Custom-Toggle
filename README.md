@@ -58,6 +58,7 @@ Resizeble toggle
 </TouchableWithoutFeedback>
 ```
 > Toggle states -> false
+<br>
 ![toggle](./img/offcolorred.png)
 ```
 <TouchableWithoutFeedback>
