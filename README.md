@@ -79,7 +79,7 @@ Toggle states -> false
     <Toggle toggleCircleMarginLeft={3} />
 <TouchableWithoutFeedback>
 ```
-![toggle](./img/circlemargin10.png)
+![toggle](./img/circleleftmargin10.png)
 ```
 <TouchableWithoutFeedback>
     <Toggle toggleCircleMarginLeft={10} />
