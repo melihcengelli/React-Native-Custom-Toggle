@@ -51,6 +51,8 @@ Resizeble toggle
 
 ##### b. Background Color
 > Toggle states -> true
+
+
 ![toggle](./img/oncolorgreen.png)
 ```
 <TouchableWithoutFeedback>
@@ -58,7 +60,8 @@ Resizeble toggle
 </TouchableWithoutFeedback>
 ```
 > Toggle states -> false
-<br>
+
+
 ![toggle](./img/offcolorred.png)
 ```
 <TouchableWithoutFeedback>
